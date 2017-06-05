@@ -19,3 +19,4 @@ Auth::routes();
 
 Route::get('/', 'HomeController@index');
 Route::get('/files', 'FileController@show');
+Route::get('/students', 'StudentController@list');
