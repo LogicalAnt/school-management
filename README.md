@@ -2,9 +2,11 @@
 1.Installation guide:
 
 - clone repo  
-- cd /file_path
+- cd to_file_path
 - touch .env  
 - cp .env.example .env
 - setup .env
 - composer update
+- php artisan migrate
+- php artisan key:generate
 - php artisan serve
